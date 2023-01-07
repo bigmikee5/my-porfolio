@@ -13,9 +13,9 @@
   --font-bold:700;
 
   /* ::::: colors :::: */
-  --first-color: #cc4b2c;
-  --first-color-dark: #662616;
-  --first-color-darken: #290f09;
+  --first-color: purple;
+  --first-color-dark: #661662;
+  --first-color-darken: #1e0420;
   --text-color: #54423d;
   --text-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
@@ -68,7 +68,7 @@ body{
     font-weight: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    background-color: black ;
+    background-color: white ;
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -235,7 +235,7 @@ img{
 
 .home_profession{
     font-size: var(--small-font-size);
-    color: var(--first-color-lighten);
+    color: black;
 }
 
 .home_social{
@@ -368,25 +368,19 @@ img{
     background-color: var(--first-color);
 }
 
-.skills_html{
+.skills_figma{
     width: 80%;
 }
 
-.skills_css{
-    width: 50%;
-}
-
-.skills_javascript{
+.skills_adobe{
     width: 40%;
 }
 
-.skills_tailwindcss{
+.skills_coreldraw{
     width: 40%;
 }
 
-.skills_php{
-    width: 25%;
-}
+
 
 /* :::: EDUCATION :::: */
 .education_container{
